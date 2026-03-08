@@ -1,0 +1,197 @@
+[
+  {
+    "id": 1,
+    "name": "Jett",
+    "role": "Duelist",
+    "origin": "South Korea",
+    "abilities": {
+      "q": "Updraft",
+      "e": "Tailwind",
+      "c": "Cloudburst",
+      "ultimate": "Blade Storm"
+    },
+    "agent_image": "https://static.wikia.nocookie.net/valorant/images/3/35/Jett_icon.png"
+  },
+  {
+    "id": 2,
+    "name": "Phoenix",
+    "role": "Duelist",
+    "origin": "United Kingdom",
+    "abilities": {
+      "q": "Curveball",
+      "e": "Hot Hands",
+      "c": "Blaze",
+      "ultimate": "Run It Back"
+    },
+    "agent_image": "https://static.wikia.nocookie.net/valorant/images/1/14/Phoenix_icon.png"
+  },
+  {
+    "id": 3,
+    "name": "Sage",
+    "role": "Sentinel",
+    "origin": "China",
+    "abilities": {
+      "q": "Slow Orb",
+      "e": "Healing Orb",
+      "c": "Barrier Orb",
+      "ultimate": "Resurrection"
+    },
+    "agent_image": "https://static.wikia.nocookie.net/valorant/images/7/74/Sage_icon.png"
+  },
+  {
+    "id": 4,
+    "name": "Sova",
+    "role": "Initiator",
+    "origin": "Russia",
+    "abilities": {
+      "q": "Shock Bolt",
+      "e": "Recon Bolt",
+      "c": "Owl Drone",
+      "ultimate": "Hunter's Fury"
+    },
+    "agent_image": "https://static.wikia.nocookie.net/valorant/images/4/49/Sova_icon.png"
+  },
+  {
+    "id": 5,
+    "name": "Brimstone",
+    "role": "Controller",
+    "origin": "USA",
+    "abilities": {
+      "q": "Incendiary",
+      "e": "Sky Smoke",
+      "c": "Stim Beacon",
+      "ultimate": "Orbital Strike"
+    },
+    "agent_image": "https://static.wikia.nocookie.net/valorant/images/6/6f/Brimstone_icon.png"
+  },
+  {
+    "id": 6,
+    "name": "Viper",
+    "role": "Controller",
+    "origin": "USA",
+    "abilities": {
+      "q": "Poison Cloud",
+      "e": "Toxic Screen",
+      "c": "Snake Bite",
+      "ultimate": "Viper's Pit"
+    },
+    "agent_image": "https://static.wikia.nocookie.net/valorant/images/5/5f/Viper_icon.png"
+  },
+  {
+    "id": 7,
+    "name": "Cypher",
+    "role": "Sentinel",
+    "origin": "Morocco",
+    "abilities": {
+      "q": "Cyber Cage",
+      "e": "Spycam",
+      "c": "Trapwire",
+      "ultimate": "Neural Theft"
+    },
+    "agent_image": "https://static.wikia.nocookie.net/valorant/images/8/88/Cypher_icon.png"
+  },
+  {
+    "id": 8,
+    "name": "Reyna",
+    "role": "Duelist",
+    "origin": "Mexico",
+    "abilities": {
+      "q": "Leer",
+      "e": "Devour",
+      "c": "Dismiss",
+      "ultimate": "Empress"
+    },
+    "agent_image": "https://static.wikia.nocookie.net/valorant/images/b/b0/Reyna_icon.png"
+  },
+  {
+    "id": 9,
+    "name": "Killjoy",
+    "role": "Sentinel",
+    "origin": "Germany",
+    "abilities": {
+      "q": "Alarmbot",
+      "e": "Turret",
+      "c": "Nanoswarm",
+      "ultimate": "Lockdown"
+    },
+    "agent_image": "https://static.wikia.nocookie.net/valorant/images/1/15/Killjoy_icon.png"
+  },
+  {
+    "id": 10,
+    "name": "Breach",
+    "role": "Initiator",
+    "origin": "Sweden",
+    "abilities": {
+      "q": "Flashpoint",
+      "e": "Fault Line",
+      "c": "Aftershock",
+      "ultimate": "Rolling Thunder"
+    },
+    "agent_image": "https://static.wikia.nocookie.net/valorant/images/5/53/Breach_icon.png"
+  },
+  {
+    "id": 11,
+    "name": "Omen",
+    "role": "Controller",
+    "origin": "Unknown",
+    "abilities": {
+      "q": "Paranoia",
+      "e": "Dark Cover",
+      "c": "Shrouded Step",
+      "ultimate": "From the Shadows"
+    },
+    "agent_image": "https://static.wikia.nocookie.net/valorant/images/b/b0/Omen_icon.png"
+  },
+  {
+    "id": 12,
+    "name": "Skye",
+    "role": "Initiator",
+    "origin": "Australia",
+    "abilities": {
+      "q": "Trailblazer",
+      "e": "Guiding Light",
+      "c": "Regrowth",
+      "ultimate": "Seekers"
+    },
+    "agent_image": "https://static.wikia.nocookie.net/valorant/images/3/33/Skye_icon.png"
+  },
+  {
+    "id": 13,
+    "name": "Yoru",
+    "role": "Duelist",
+    "origin": "Japan",
+    "abilities": {
+      "q": "Blindside",
+      "e": "Gatecrash",
+      "c": "Fakeout",
+      "ultimate": "Dimensional Drift"
+    },
+    "agent_image": "https://static.wikia.nocookie.net/valorant/images/1/19/Yoru_icon.png"
+  },
+  {
+    "id": 14,
+    "name": "Astra",
+    "role": "Controller",
+    "origin": "Ghana",
+    "abilities": {
+      "q": "Nova Pulse",
+      "e": "Nebula",
+      "c": "Gravity Well",
+      "ultimate": "Cosmic Divide"
+    },
+    "agent_image": "https://static.wikia.nocookie.net/valorant/images/3/38/Astra_icon.png"
+  },
+  {
+    "id": 15,
+    "name": "Chamber",
+    "role": "Sentinel",
+    "origin": "France",
+    "abilities": {
+      "q": "Headhunter",
+      "e": "Rendezvous",
+      "c": "Trademark",
+      "ultimate": "Tour De Force"
+    },
+    "agent_image": "https://static.wikia.nocookie.net/valorant/images/0/09/Chamber_icon.png"
+  }
+]
