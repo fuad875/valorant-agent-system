@@ -1,6 +1,7 @@
-import { Suspense} from 'react';
+import { Suspense, useState} from 'react';
 import './App.css'
 import AgentList from './assets/components/AgentList/AgentList';
+import { use } from 'react';
 
 
 
@@ -15,14 +16,31 @@ const agentAllData = async()=>{
 
 function App() {
 
+  const [selectedAgents,setSelectedAgent] = useState([]);
+  const [showAgent,setShowAgent] =useState([]);
 
+  const handleSelectedAgent=(r)=>{
+          if (selectedAgents.find(a=> a.id=== r.id)) return;
+        
+         if(selectedAgents.length >=5) return;
+         setSelectedAgent([...selectedAgents,r])
+
+  };
+
+
+  const handleShowAgent= ()=>{
+        if(showAgent === selectedAgents)
+          setShowAgent([...showAgent])
+  }
+
+  
 
   return (
     <>
 
 
-      <div className='max-w-[1400px] mx-auto'>
-        <div className="navbar bg-base-100 shadow-sm">
+      <div className='max-w-[1400px] mx-auto '>
+        <div className="navbar bg-base-100 shadow-sm ">
           <div className="navbar-start">
             <div className="dropdown">
               <div tabIndex={0} role="button" className="btn btn-ghost btn-circle">
@@ -60,37 +78,35 @@ function App() {
       <div className='max-w-[1200px] mx-auto'>
         <div className="carousel w-full">
           <div id="item1" className="carousel-item w-full">
-            <img
-              src="https://img.daisyui.com/images/stock/photo-1625726411847-8cbb60cc71e6.webp"
-              className="w-full" />
+            {
+              showAgent.map(show=>
+                  <img src={show} className="w-full" /> 
+               
+              )
+            }
+            
+        
           </div>
-          <div id="item2" className="carousel-item w-full">
-            <img
-              src="https://img.daisyui.com/images/stock/photo-1609621838510-5ad474b7d25d.webp"
-              className="w-full" />
-          </div>
-          <div id="item3" className="carousel-item w-full">
-            <img
-              src="https://img.daisyui.com/images/stock/photo-1414694762283-acccc27bca85.webp"
-              className="w-full" />
-          </div>
-          <div id="item4" className="carousel-item w-full">
-            <img
-              src="https://img.daisyui.com/images/stock/photo-1665553365602-b2fb8e5d1707.webp"
-              className="w-full" />
-          </div>
+          
         </div>
         <div className="flex w-full justify-center gap-2 py-2">
           <a href="#item1" className="btn btn-xs">1</a>
           <a href="#item2" className="btn btn-xs">2</a>
           <a href="#item3" className="btn btn-xs">3</a>
           <a href="#item4" className="btn btn-xs">4</a>
+          <a href="#item4" className="btn btn-xs">5</a>
         </div>
       </div>
 
 
      <Suspense fallback={<h1 className='font-bold text-center'><span className="loading loading-spinner loading-xl"></span></h1>}>
-           <AgentList agentPromises={agentPromises}></AgentList>
+           <AgentList 
+           agentPromises={agentPromises}
+           handleSelectedAgent={handleSelectedAgent}
+           selectedAgents={selectedAgents}
+            handleShowAgent={ handleShowAgent}
+            showAgent={showAgent}
+           ></AgentList>
      </Suspense>
 
 

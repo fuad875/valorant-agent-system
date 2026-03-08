@@ -2,9 +2,7 @@ import React from 'react';
 
 const AgentIndividual = ({agent}) => {
     return (
-        <div>
-               {/* row 1 */}
-              <tr >
+        <>
                
                 <td className="w-1/2">
                   <div className="flex items-center gap-3">
@@ -21,7 +19,7 @@ const AgentIndividual = ({agent}) => {
                     </div>
                   </div>
                 </td>
-                <td className="">
+                <td className="w-1/2 ">
                 <p className='bg bg-green-400 text-center font-bold rounded'>Role</p>
                   <span>{agent.role}</span>
                  </td> 
@@ -39,8 +37,8 @@ const AgentIndividual = ({agent}) => {
                  </td> 
                  
 
-              </tr>
-            </div>
+           </>
+        
         
     );
 };
